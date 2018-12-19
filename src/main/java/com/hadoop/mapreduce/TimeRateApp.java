@@ -137,7 +137,7 @@ public class TimeRateApp {
     public static void main(String[] args) throws Exception{
 
         // 本地测试
-        args = new String[]{"input/tb_call_201202_random.txt", "output/TimeRate"};
+//        args = new String[]{"input/tb_call_201202_random.txt", "output/TimeRate"};
 
         // 创建configuration
         Configuration conf = new Configuration();

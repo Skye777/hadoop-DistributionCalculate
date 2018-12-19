@@ -95,7 +95,7 @@ public class AvgCallApp {
     public static void main(String[] args) throws Exception{
 
         // 本地测试
-        args = new String[]{"input/tb_call_201202_random.txt","output/AvgCall"};
+//        args = new String[]{"input/tb_call_201202_random.txt","output/AvgCall"};
 
         // 创建configuration
         Configuration conf = new Configuration();
