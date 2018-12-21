@@ -21,10 +21,10 @@ import java.net.URI;
  */
 public class HDFSApp {
 
-    public static final String HDFS_PATH = "hdfs://0.0.0.0:9000";
+    private static final String HDFS_PATH = "hdfs://master:8020";
 
-    FileSystem fileSystem = null;
-    Configuration configuration = null;
+    private FileSystem fileSystem = null;
+    private Configuration configuration = null;
 
     /**
      * 创建HDFS目录
@@ -143,7 +143,7 @@ public class HDFSApp {
     }
 
     @After
-    public void tearDown() throws Exception{
+    public void tearDown() {
         configuration = null;
         fileSystem = null;
 
